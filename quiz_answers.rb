@@ -7,7 +7,7 @@ stops.unshift("Glasgow Queen St")
 #3.Answer
 stops.insert(4,"Polmont")
 #4.Answer
-p stops[5]
+p stops.index("Linlithgow")
 #5.Answer
 stops.delete("Livingston")
 #6.Answer
