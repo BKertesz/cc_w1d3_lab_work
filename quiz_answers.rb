@@ -1,16 +1,25 @@
 # Begining of first third of quiz
 stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
-stops.push("Edinburgh Waverley") #1.Answer
-stops.unshift("Glasgow Queen St")#2.Answer
-stops.insert(4,"Polmont")#3.Answer
-p stops[5] #4.Answer
-stops.delete("Livingston") #5.Answer
-stops.delete_at(2) #6.Answer
-p "Stops on the train: #{stops.length()}" #7.Answer
-falkirk_high = stops[2] #8.Answer
-stops.reverse! #9.Answer
-
-for i in stops #10.Answer
+#1.Answer
+stops.push("Edinburgh Waverley")
+#2.Answer
+stops.unshift("Glasgow Queen St")
+#3.Answer
+stops.insert(4,"Polmont")
+#4.Answer
+p stops[5]
+#5.Answer
+stops.delete("Livingston")
+#6.Answer
+stops.delete_at(2)
+#7.Answer
+p "Stops on the train: #{stops.length()}"
+#8.Answer
+falkirk_high = stops[2]
+#9.Answer
+stops.reverse!
+#10.Answer
+for i in stops
   p "Next stop is:#{i}"
 end
 # End of first third of quiz
