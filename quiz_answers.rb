@@ -99,10 +99,17 @@ united_kingdom = [
 # 1.Answer
 united_kingdom[1][:capital] = "Cardiff"
 # 2.Answer
-united_kingdom[3] = {}
-united_kingdom[3][:name] = 'Northern Ireland'
-united_kingdom[3][:population] =1,811,000
-united_kingdom[3][:capital]= "Belfast"
+# united_kingdom[3] = {}
+# united_kingdom[3][:name] = 'Northern Ireland'
+# united_kingdom[3][:population] =1,811,000
+# united_kingdom[3][:capital]= "Belfast"
+northern_ireland = {
+  name: "Northern Ireland",
+  population: 1811000,
+  capital: "Belfast",
+}
+united_kingdom.push(northern_ireland)
+
 # 3.Answer
 p "Parts of the United Kingdom"
 for i in united_kingdom
@@ -112,7 +119,7 @@ end
 total_population = 0
 for i in united_kingdom
   # total_population += i[:population]
-  total_population += i[:population].to_s.to_i
+  total_population += i[:population]
 end
 p "Total population is #{total_population}"
 
